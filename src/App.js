@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { PlacementExample } from './SideBar';
 
 function App() {
   return (
@@ -40,6 +41,10 @@ function App() {
     </div>
   </div>
 </nav>
+
+<div>
+  <PlacementExample/>
+</div>
     </div>
   );
 }
